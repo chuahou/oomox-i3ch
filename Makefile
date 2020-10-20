@@ -7,3 +7,6 @@ all: $(BUILD_DIR)/oomox-i3ch $(BUILD_DIR)/oomox-i3ch_dark
 
 $(BUILD_DIR)/oomox-%: $(shell pwd)/colour/%
 	oomox-cli -o $$(basename $@) -t $(BUILD_DIR) $<
+
+clean:
+	[ -d $(BUILD_DIR) ] && rm $(BUILD_DIR) -rf
