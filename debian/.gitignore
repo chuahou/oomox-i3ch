@@ -1,0 +1,6 @@
+.debhelper/
+debhelper-build-stamp
+files
+oomox-i3ch.postinst.debhelper
+oomox-i3ch.postrm.debhelper
+oomox-i3ch/

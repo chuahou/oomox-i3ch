@@ -11,9 +11,3 @@ Architecture: any
 Depends:      ${shlibs:Depends}, ${misc:Depends}
 Description:  oomox variant with i3ch colours
  GTK theme variant created using oomox with i3ch colours.
-
-Package:      oomox-i3ch-dark
-Architecture: any
-Depends:      ${shlibs:Depends}, ${misc:Depends}
-Description:  oomox variant with i3ch dark colours
- GTK theme variant created using oomox with i3ch dark colours.
