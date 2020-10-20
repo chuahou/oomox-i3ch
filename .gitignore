@@ -1,2 +1,8 @@
 /themes/
 /icons/
+*.build
+*.buildinfo
+*.changes
+*.deb
+*.log
+*.substvars

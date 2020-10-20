@@ -1,0 +1,19 @@
+Source:            oomox-i3ch
+Maintainer:        Chua Hou <human+github@chuahou.dev>
+Section:           misc
+Priority:          optional
+Standards-Version: 3.9.2
+Build-Depends:     debhelper (>= 11), oomox (>= 1.13)
+Homepage:          https://github.com/chuahou/oomox-i3ch
+
+Package:      oomox-i3ch
+Architecture: any
+Depends:      ${shlibs:Depends}, ${misc:Depends}
+Description:  oomox variant with i3ch colours
+ GTK theme variant created using oomox with i3ch colours.
+
+Package:      oomox-i3ch-dark
+Architecture: any
+Depends:      ${shlibs:Depends}, ${misc:Depends}
+Description:  oomox variant with i3ch dark colours
+ GTK theme variant created using oomox with i3ch dark colours.

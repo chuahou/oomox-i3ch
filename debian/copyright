@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: oomox-i3ch
+Source: https://github.com/chuahou/oomox-i3ch
+
+Files: *
+Copyright: 2020 Chua Hou
+License: MIT
