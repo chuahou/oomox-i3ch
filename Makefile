@@ -3,7 +3,8 @@
 
 # input
 COLOUR_DIR := colour
-COLOURS    := $(shell find $(COLOUR_DIR) -maxdepth 1 -type f)
+COLOURS    := i3ch i3ch-dark
+COLOURS    := $(COLOURS:%=$(COLOUR_DIR)/%)
 
 # output
 THEMES_DIR := themes
